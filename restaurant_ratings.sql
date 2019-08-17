@@ -7,8 +7,11 @@ CREATE TABLE "output_merge_placeid" (
 	"userID" varchar(20)   NOT NULL,
 	"rating" varchar (20)   NOT NULL,
 	"food_rating" varchar (20)   NOT NULL,
-	"service_rating" varchar (20)   NOT NULL
+	"service_rating" varchar (20)   NOT NULL,
 	
+	    CONSTRAINT "pk_output_merge_placeid" PRIMARY KEY (
+        "name","city","food_rating"
+     )
 );
 DROP TABLE IF EXISTS output_merge_placeid;
 
