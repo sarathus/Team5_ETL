@@ -10,3 +10,5 @@ The transformation including merging of the two files, removing unncessary colum
 Table was created in Postgres under ratings to load up the "output_merge_placeid.csv" data
 
 Sqlalchemy to read postgres database
+
+Server created and data presented on HTML
